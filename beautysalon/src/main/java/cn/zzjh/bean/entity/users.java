@@ -9,6 +9,7 @@ public class users {
 	private String id;
 	private String uName;
 	private String password;
+	private String telephone;
 	public String getId() {
 		return id;
 	}
@@ -27,4 +28,11 @@ public class users {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public String getTelephone() {
+		return telephone;
+	}
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
+	}
+	
 }
